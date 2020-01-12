@@ -15,6 +15,6 @@ class Deciduous extends Tree {
   }
 
   static defintion() {
-    return super.definition + "Deciduous trees shed their leaves annually.";
+    return `${super.definition} Deciduous trees shed their leaves annually.`;
   }
 }
